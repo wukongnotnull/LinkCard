@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- 城市建筑轮廓 -->
+  <path d="M4 21V10h4v11H4z" fill="currentColor"/>
+  <path d="M10 21V8h4v13h-4z" fill="currentColor"/>
+  <path d="M16 21V6h4v15h-4z" fill="currentColor"/>
+  <!-- 代码符号装饰 -->
+  <path d="M7 7L5 5l2-2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <path d="M17 7l2-2-2-2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <!-- 窗户装饰 -->
+  <rect x="5" y="12" width="2" height="2" fill="currentColor"/>
+  <rect x="11" y="10" width="2" height="2" fill="currentColor"/>
+  <rect x="17" y="8" width="2" height="2" fill="currentColor"/>
+</svg>
