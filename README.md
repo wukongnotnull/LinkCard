@@ -65,3 +65,57 @@ git clone https://github.com/wukongnotnull/LinkCard.git
 
 ## 开源协议
 本项目基于 MIT 协议开源，详细信息请参阅 [LICENSE](LICENSE) 文件。
+
+
+## 常见问题
+报错：
+```bash 
+ (base) wukong@MacPro LinkCard % git push origin main
+枚举对象中: 32, 完成.
+对象计数中: 100% (32/32), 完成.
+使用 10 个线程进行压缩
+压缩对象中: 100% (27/27), 完成.
+写入对象中: 100% (29/29), 1.06 MiB | 20.84 MiB/s, 完成.
+总共 29（差异 3），复用 0（差异 0），包复用 0
+错误：RPC 失败。HTTP 400 curl 22 The requested URL returned error: 400
+send-pack: unexpected disconnect while reading sideband packet
+致命错误：远端意外挂断了
+Everything up-to-date
+```
+解决方法：
+```bash
+git config --global http.postBuffer 524288000
+```     
+
+
+## github地址
+https://github.com/wukongnotnull/LinkCard
+
+
+## 项目上传到 GitHub 步骤
+1. 提交更改：
+   ```bash
+   # 添加所有更改到暂存区
+   git add .
+   
+   # 提交更改并添加描述信息
+   git commit -m "Initial commit"
+   ```
+
+2. 将本地仓库与 GitHub 仓库关联：
+   ```bash
+   # 替换 <repository-url> 为你的 GitHub 仓库地址
+   git remote add origin <repository-url>
+   
+   # 验证远程仓库是否添加成功
+   git remote -v
+   ```
+
+3. 将代码推送到 GitHub：
+   ```bash
+   # 推送到主分支并建立关联
+   git push -u origin main
+   
+   # 如果使用 master 分支，则使用:
+   # git push -u origin master
+   ```
