@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Sitemap: https://wukongnotnull.tech/sitemap.xml
+
+# Allow all robots complete access
+Disallow:
+
+# Crawl-delay directive to prevent server overload
+Crawl-delay: 10
+
+# Additional rules
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Clean parameters
+Clean-param: utm_source&utm_medium&utm_campaign
+
+# Additional sitemap locations
+Sitemap: https://wukongnotnull.tech/sitemap-posts.xml
+Sitemap: https://wukongnotnull.tech/sitemap-pages.xml
