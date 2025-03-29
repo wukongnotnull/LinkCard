@@ -1,0 +1,14 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_1_2)">
+    <!-- 小红书文字 -->
+    <text x="12" y="14.5" font-family="'Noto Sans SC', sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">小红书</text>
+    <!-- 装饰线条 -->
+    <path d="M7 8.5H17" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M7 17.5H17" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_1_2">
+      <rect width="24" height="24" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
